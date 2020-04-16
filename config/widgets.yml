@@ -1,0 +1,14 @@
+widgets:
+  -
+    id: unanswered_tickets
+    title: 'Unanswered tickets'
+    subtitle: 'This week'
+    type: 'pie'
+    group: 'zendesk'
+    refresh_rate: 10
+  -
+    id: answered_tickets
+    title: 'Answered tickets'
+    subtitle: 'This week'
+    type: 'line'
+    group: 'zendesk'
