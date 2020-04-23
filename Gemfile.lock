@@ -1,5 +1,6 @@
-PATH
-  remote: ../../steph/sandbox/engine/watchdog
+GIT
+  remote: https://github.com/freesteph/watchdog.git
+  revision: c4cd3044ca639fa9299cdc028ca901a25d7a928e
   specs:
     watchdog (0.1.0)
       chartkick
