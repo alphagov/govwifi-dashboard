@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/freesteph/watchdog.git
-  revision: c4cd3044ca639fa9299cdc028ca901a25d7a928e
+  revision: 4a254889fc7fa26c18287746fe2ca3dae7342d1c
   specs:
     watchdog (0.1.0)
       chartkick
