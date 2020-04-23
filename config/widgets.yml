@@ -1,14 +1,15 @@
 widgets:
   -
-    id: unanswered_tickets
-    title: 'Unanswered tickets'
-    subtitle: 'This week'
-    type: 'pie'
-    group: 'zendesk'
-    refresh_rate: 10
-  -
-    id: answered_tickets
-    title: 'Answered tickets'
-    subtitle: 'This week'
+    id: active_users_weekly
+    title: 'Active users'
+    subtitle: 'Weekly'
     type: 'line'
-    group: 'zendesk'
+    group: 'logging_api'
+    style: wide
+  -
+    id: active_users_monthly
+    title: 'Active users'
+    subtitle: 'Monthly'
+    type: 'line'
+    group: 'logging_api'
+    style: wide
