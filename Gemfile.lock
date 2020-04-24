@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/freesteph/watchdog.git
-  revision: 4a254889fc7fa26c18287746fe2ca3dae7342d1c
+  remote: https://github.com/alphagov/govwifi-watchdog.git
+  revision: fbb396dfd6fb342e19af484c6c1acf569ba435d6
   specs:
     watchdog (0.1.0)
       chartkick
