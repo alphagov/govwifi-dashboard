@@ -18,10 +18,13 @@ module Watchdog
 
     private
 
-    def extract_data_for period
-      f = File.read(File.join(Rails.root, 'tmp/data/active_users.json'))
+    def extract_data_for(period)
+      raw = S3_BUCKET.get_object(
+        bucket: 'govwifi-mock-metrics',
+        key: 'active_users.json'
+      )
 
-      data = JSON.parse(f)
+      data = JSON.parse(raw.body.read)
 
       data['data'].filter { |entry| entry['period'] == period }
     end
