@@ -1,0 +1,11 @@
+---
+defaults: &defaults
+  stack: cflinuxfs3
+  buildpacks:
+    - ruby_buildpack
+  memory: 1GB
+
+applications:
+  - name: govwifi-dashboard-research
+    <<: *defaults
+    instances: 1
