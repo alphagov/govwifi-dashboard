@@ -31,3 +31,7 @@
 
 en:
   hello: "Hello world"
+  errors:
+    data:
+      no_recent_file: "Unable to locate the most recent file in S3 for metric '%{name}' and period '%{period}'"
+      no_data_in_file: "S3 file present but no data recorded for the metric '%{name}' and period '%{period}'"
